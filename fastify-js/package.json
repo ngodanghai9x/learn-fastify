@@ -1,0 +1,22 @@
+{
+  "name": "fastify-js",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=18.12.1"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": "git@github.com:ngodanghai9x/learn-fastify.git",
+  "author": "Hai Ngo <ngodanghai9x@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^4.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
